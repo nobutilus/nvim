@@ -8,15 +8,18 @@ return {
       require("mini.pairs").setup()
       require("mini.comment").setup()
       require("mini.trailspace").setup()
-      require("mini.surround").setup()
       require("mini.diff").setup()
 
-      local wk = require("which-key")
-      wk.add({
-        ["<leader>"] = {
-          c = { "Toggle Comment (mini.comment)" },
-          s = { "Surround (mini.surround)" },
-          t = { "Trim trailing spaces (mini.trailspace)" },
+      -- mini.surround を vim-surround 互換のキーバインドで設定
+      require("mini.surround").setup({
+        mappings = {
+          add = "ys", -- Add surrounding in Normal and Visual modes
+          delete = "ds", -- Delete surrounding
+          find = "gzf", -- Find surrounding (to the right)
+          find_left = "gzF", -- Find surrounding (to the left)
+          highlight = "gzh", -- Highlight surrounding
+          replace = "cs", -- Replace surrounding
+          update_n_lines = "gzn", -- Update `n_lines`
         },
       })
     end,
