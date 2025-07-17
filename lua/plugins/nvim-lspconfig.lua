@@ -3,6 +3,7 @@ return {
   opts = {
     -- make sure mason installs the server
     servers = {
+      marksman = {},
       terraformls = {},
       yamlls = {
         -- Have to add this for yamlls to understand that we support line folding
