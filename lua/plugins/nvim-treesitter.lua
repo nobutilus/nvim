@@ -4,6 +4,8 @@ return {
     ensure_installed = {
       "terraform",
       "hcl",
+      "ninja",
+      "rst",
     },
     show_hidden = true,
   },

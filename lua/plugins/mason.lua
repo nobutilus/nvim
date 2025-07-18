@@ -5,6 +5,8 @@ return {
       "tflint",
       "markdownlint-cli2",
       "markdown-toc",
+      "basedpyright",
+      "ruff",
     },
   },
 }
