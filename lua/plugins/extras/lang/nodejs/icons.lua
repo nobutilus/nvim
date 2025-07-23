@@ -1,0 +1,25 @@
+return {
+  "echasnovski/mini.icons",
+  opts = {
+    file = {
+      [".eslintrc.js"] = { glyph = "󰱺", hl = "MiniIconsYellow" },
+      [".node-version"] = { glyph = "", hl = "MiniIconsGreen" },
+      [".prettierrc"] = { glyph = "", hl = "MiniIconsPurple" },
+      [".prettierrc.json"] = { glyph = "", hl = "MiniIconsPurple" },
+      [".prettierrc.yml"] = { glyph = "", hl = "MiniIconsPurple" },
+      [".prettierrc.yaml"] = { glyph = "", hl = "MiniIconsPurple" },
+      ["biome.json"] = { glyph = "󰋙", hl = "MiniIconsGrey" },
+      ["biome.jsonc"] = { glyph = "󰋙", hl = "MiniIconsGrey" },
+      ["eslint.config.js"] = { glyph = "󰱺", hl = "MiniIconsYellow" },
+      ["eslint.config.mjs"] = { glyph = "󰱺", hl = "MiniIconsYellow" },
+      ["eslint.config.cjs"] = { glyph = "󰱺", hl = "MiniIconsYellow" },
+      ["eslint.config.ts"] = { glyph = "󰱺", hl = "MiniIconsYellow" },
+      ["eslint.config.mts"] = { glyph = "󰱺", hl = "MiniIconsYellow" },
+      ["eslint.config.cts"] = { glyph = "󰱺", hl = "MiniIconsYellow" },
+      ["package.json"] = { glyph = "", hl = "MiniIconsGreen" },
+      ["tsconfig.json"] = { glyph = "", hl = "MiniIconsAzure" },
+      ["tsconfig.build.json"] = { glyph = "", hl = "MiniIconsAzure" },
+      ["yarn.lock"] = { glyph = "", hl = "MiniIconsBlue" },
+    },
+  },
+}
