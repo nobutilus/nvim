@@ -5,17 +5,10 @@ return {
     signs = {
       add = { text = "▎" },
       change = { text = "▎" },
-      delete = { text = "" },
-      topdelete = { text = "" },
+      delete = { text = "" },
+      topdelete = { text = "" },
       changedelete = { text = "▎" },
       untracked = { text = "▎" },
-    },
-    signs_staged = {
-      add = { text = "▎" },
-      change = { text = "▎" },
-      delete = { text = "" },
-      topdelete = { text = "" },
-      changedelete = { text = "▎" },
     },
     on_attach = function(buffer)
       local gs = package.loaded.gitsigns
@@ -24,7 +17,6 @@ return {
         vim.keymap.set(mode, l, r, { buffer = buffer, desc = desc })
       end
 
-      -- stylua: ignore start
       map("n", "]h", function()
         if vim.wo.diff then
           vim.cmd.normal({ "]c", bang = true })
