@@ -11,3 +11,6 @@ vim.opt.relativenumber = false
 vim.g.lazyvim_python_lsp = "basedpyright"
 -- Set to "ruff_lsp" to use the old LSP implementation version.
 vim.g.lazyvim_python_ruff = "ruff"
+
+vim.opt.fixeol = true
+vim.opt.endofline = true
