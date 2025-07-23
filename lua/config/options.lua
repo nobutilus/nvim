@@ -5,6 +5,8 @@
 ---- 絶対行番号のみ表示
 vim.opt.number = true
 vim.opt.relativenumber = false
+-- Enable this option to avoid conflicts with Prettier.
+vim.g.lazyvim_prettier_needs_config = true
 
 -- LSP Server to use for Python.
 -- Set to "basedpyright" to use basedpyright instead of pyright.
