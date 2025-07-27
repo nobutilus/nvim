@@ -7,6 +7,7 @@ return {
       "eslint-lsp",
       "prettier",
       "biome",
+      "tailwindcss-language-server",
     },
   },
 }

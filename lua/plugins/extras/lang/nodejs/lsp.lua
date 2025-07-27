@@ -2,6 +2,9 @@ return {
   "neovim/nvim-lspconfig",
   opts = {
     servers = {
+      tsserver = false,
+      ts_ls = false,
+      typescript_language_server = false,
       vtsls = {
         settings = {
           complete_function_calls = true,
