@@ -28,7 +28,17 @@ return {
               parameterNames = { enabled = "literals" },
               parameterTypes = { enabled = true },
               propertyDeclarationTypes = { enabled = true },
-              variableTypes = { enabled = false },
+              variableTypes = { enabled = true },
+            },
+          },
+          javascript = {
+            inlayHints = {
+              enumMemberValues = { enabled = true },
+              functionLikeReturnTypes = { enabled = true },
+              parameterNames = { enabled = "literals" },
+              parameterTypes = { enabled = true },
+              propertyDeclarationTypes = { enabled = true },
+              variableTypes = { enabled = true },
             },
           },
         },
