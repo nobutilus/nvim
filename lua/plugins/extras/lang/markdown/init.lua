@@ -12,7 +12,6 @@ end
 local modules = {
   require("plugins.extras.lang.markdown.treesitter"),
   require("plugins.extras.lang.markdown.lsp"),
-  require("plugins.extras.lang.markdown.preview"),
   require("plugins.extras.lang.markdown.conform"),
   require("plugins.extras.lang.markdown.lint"),
   require("plugins.extras.lang.markdown.mason"),
@@ -20,3 +19,4 @@ local modules = {
 
 -- Combine recommended function with modules
 return vim.list_extend({ recommended = M.recommended }, modules)
+
